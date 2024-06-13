@@ -1,10 +1,12 @@
 import express from "express"
 import cors from 'cors'
 
+
 import authRoutes from './routes/auth.routes.js'
 import accountRoutes from './routes/account.routes.js'
 
 import connectToMongoDB from "./db/connectToMongoDB.js";
+
 
 
 const app = express();
